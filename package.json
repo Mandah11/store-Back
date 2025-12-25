@@ -1,14 +1,14 @@
 {
   "name": "back-end",
   "version": "0.1.0",
-  "private": true,
+  "description": "",
   "main": "main.js",
   "type": "module",
   "imports": {
     "#resolvers/*": "./src/resolvers/*"
   },
-
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/main.js",
     "start": "node src/main.js",
     "lint": "eslint"
